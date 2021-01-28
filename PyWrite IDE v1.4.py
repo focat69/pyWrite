@@ -2,7 +2,7 @@ import socket
 
 print("PyWrite v1.4\nWaiting for CodeRunner to connect..\nMake sure to run CodeRunner\n")
 
-HOST = '192.168.0.62'
+HOST = '127.0.0.1'
 PORT = 9090
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
