@@ -2,8 +2,8 @@ import socket
 
 print("PyWrite v1.4\nWaiting for CodeRunner to connect..\nMake sure to run CodeRunner\n")
 
-HOST = '127.0.0.1'
-PORT = 9090
+HOST = '127.0.0.1' # Enter your private IP (ipv4) using ipconfig (win) or ip addr (linux/mac)
+PORT = 9090 # You can change this to what ever you want
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((HOST, PORT))
